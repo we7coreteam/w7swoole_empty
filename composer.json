@@ -32,12 +32,51 @@
 			"W7\\Tests\\" : "tests/"
 		}
 	},
+	"repositories": {
+		"1": {
+			"type": "path",
+			"url": "../w7-rangine"
+		},
+		"2": {
+			"type": "path",
+			"url": "../w7-rangine-crontab"
+		},
+		"3": {
+			"type": "path",
+			"url": "../w7-rangine-database-tool"
+		},
+		"4": {
+			"type": "path",
+			"url": "../w7-rangine-lang"
+		},
+		"5": {
+			"type": "path",
+			"url": "../w7-rangine-command"
+		},
+		"6": {
+			"type": "path",
+			"url": "../w7-rangine-mq"
+		},
+		"7": {
+			"type": "path",
+			"url": "../w7-rangine-mq-cmq"
+		},
+		"8": {
+			"type": "path",
+			"url": "../w7-rangine-debugger"
+		}
+	},
 	"require": {
-		"w7/rangine": "~2.4.0",
-		"w7/rangine-crontab": "~1.1.0"
+		"w7/rangine": "dev-dev-2.5.0",
+		"w7/rangine-crontab": "dev-dev-2.5.0",
+		"w7/rangine-database-tool": "dev-dev-2.5.0",
+		"w7/rangine-lang": "dev-dev-2.5.0",
+		"w7/rangine-command": "dev-dev-2.5.0",
+		"w7/rangine-mq": "dev-dev-2.5.0",
+		"w7/rangine-mq-cmq": "dev-dev-2.5.0"
 	},
 	"require-dev": {
-		"w7/rangine-debugger": "~1.1.0",
+		"w7/rangine-debugger": "dev-dev-2.5.0",
 		"phpunit/phpunit": "^7.0",
 		"w7/php-cs-fixer": "*"
 	}
